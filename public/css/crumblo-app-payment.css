@@ -1,0 +1,80 @@
+.singular .entry-header {
+    text-align: center;
+}
+
+@media (min-width: 700px) {
+    .singular .entry-header {
+        padding-bottom: 1rem;
+    }
+}
+
+.crumblo-order-page-page {
+}
+.crumblo-order-page-page h2 {
+    text-align: center;
+    font-size: 2em;
+}
+@media (min-width: 700px) {
+    .crumblo-order-page-page h2 {
+        margin-top: 2rem;
+    }
+}
+
+.crumblo-new-user-options-container {
+    display: flex;
+    max-width: 800px;
+    margin: 5.5em auto 0;
+}
+.crumblo-new-user-options-column {
+    flex: 0 0 auto;
+    min-width: 40%;
+    display: flex;
+    justify-content: center;
+    padding: 0 1em;
+}
+.crumblo-new-user-options-column:first-child:not(:last-child) {
+    justify-content: flex-start;
+}
+.crumblo-new-user-options-column:last-child:not(:first-child) {
+    justify-content: flex-end;
+}
+.crumblo-new-user-options-column-expander {
+    flex: 1 1 auto;
+    padding: 0;
+}
+
+.crumblo-new-user-options-column h3 {
+    font-size: 1.6em;
+    margin: 0;
+}
+.crumblo-new-user-options-column h4 {
+    font-size: 1em;
+    margin: 0;
+}
+.crumblo-new-user-options-column img {
+    margin-top: 45px;
+    max-width: 200px;
+}
+
+.crumblo-spinner {
+    flex: 1 1 auto;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ff0;
+    text-align: center;
+    padding: 20px 0 50px;
+}
+.crumblo-spinner__content {
+    position: relative;
+    text-align: center;
+    font-weight: 800;
+    background: transparent center center no-repeat;
+}
+.crumblo-spinner-img {
+    display: inline-block;
+    width: 5.2em;
+    height: 5.2em;
+    vertical-align: middle;
+}
